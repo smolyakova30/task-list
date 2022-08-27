@@ -1,0 +1,33 @@
+body {
+    background-image: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #ff9e00;
+}
+
+.header, .container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 80px;
+    background: linear-gradient(to left, #ff6d00, #ff9e00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1p;
+}
+
+.inputFiled {
+    padding: 10px;
+    width: 40%;
+    border: none;
+}
+
+.btn {
+    padding: 20px;
+    background-color: #ff9e00;
+    border: none;
+}
