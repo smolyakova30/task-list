@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 90px;
     background: linear-gradient(to left, #ff6d00, #ff9e00);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -23,7 +23,7 @@ h1 {
 .inputFiled {
     padding: 10px;
     width: 40%;
-    border: none;
+    border: 1px solid #ff9e00;
 }
 
 .btn {
@@ -31,3 +31,45 @@ h1 {
     background-color: #ff9e00;
     border: none;
 }
+
+.todoAdded {
+    background: #ff9e00;
+    list-style-type: none;
+    
+    width: auto;
+    text-align: center;
+    color: white;
+    width: 550px;
+    font-size: 30px;
+    border-bottom: 1.5px solid white;
+    padding: 15px;
+    text-align: center;
+}
+
+.toDoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todoComleted {
+    background: #bedf00;
+    color: black;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 2s ease;
+}
+
+
+@media all and (max-width: 820px){
+    h1{
+        font-size: 40px;
+    }
+
+    .todoAdded {
+        width: 100% ;
+        margin-left: 100px;
+        margin-right: 140px;
+    }
+}
+
